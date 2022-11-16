@@ -1,0 +1,165 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL RULES START */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.relative{
+    position: relative;
+}
+/* GENERAL RULES END */
+
+/* HEADER START */
+header{
+    min-height: 60px;
+    padding: 10px;
+    background-color: #FF6900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+header *{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a{
+    padding: 5px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px 0;
+}
+
+#header-logo{
+    max-height: 20px;
+    margin-left: -20px;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+.shop-front{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+.shop-item{
+    width: 32%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+main > div > div > img {
+    width: 100%;
+}
+
+.save-fav{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.save-fav:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.discount-tag, .sostenibilita{
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.wrapper {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    z-index: 5;
+}
+.discount-tag{
+    float: left;
+    background-color: red;
+}
+
+.sostenibilita{
+    float: left;
+    background-color: green;
+}
+
+.discount-price{
+    font-weight: bold;
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+/* SECONDARY IMAGE HOVER START */
+.secondary-img{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shop-item:hover > .secondary-img{
+    display: block;
+    cursor: pointer;
+}
+/* SECONDARY IMAGE HOVER END */
+/* MAIN END */
+
+/* FOOTER START */
+
+footer{
+    min-height: 80px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #1A1A1A;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px 0;
+}
+
+footer > div > section > div{
+    margin-top: 10px;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+footer a{
+    padding: 5px 10px 5px 0;
+    text-decoration: none;
+    color: lightgray;
+}
+/* FOOTER END */
