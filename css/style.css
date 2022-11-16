@@ -80,6 +80,7 @@ main > div > div > img {
     position: absolute;
     top: 2%;
     right: 2%;
+    padding: 5px;
 }
 
 .discount-tag, .sostenibilita{
