@@ -39,7 +39,7 @@ header a{
     padding: 5px;
 }
 
-nav{
+header > nav{
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -55,10 +55,61 @@ nav{
 /* HEADER END */
 
 /* MAIN START */
-main{
+.shop-front{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
     margin-top: 100px;
 }
 
+.shop-item{
+    width: 32%;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+main > div > div > img {
+    width: 100%;
+}
+
+.save-fav{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.discount-tag, .sostenibilita{
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.wrapper {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}
+.discount-tag{
+    float: left;
+    background-color: red;
+}
+
+.sostenibilita{
+    float: left;
+    background-color: green;
+}
+
+.discount-price{
+    font-weight: bold;
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
 
 /* MAIN END */
 
