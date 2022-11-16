@@ -14,7 +14,6 @@
 .relative{
     position: relative;
 }
-
 /* GENERAL RULES END */
 
 /* HEADER START */
@@ -43,7 +42,6 @@ header > nav{
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    align-items: center;
     padding: 10px 0;
 }
 
@@ -65,7 +63,6 @@ header > nav{
 
 .shop-item{
     width: 32%;
-    border: 1px solid gray;
     margin-bottom: 30px;
     position: relative;
 }
@@ -115,6 +112,36 @@ main > div > div > img {
 
 /* FOOTER START */
 
+footer{
+    min-height: 80px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #1A1A1A;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px 0;
+}
+
+footer > div > section > div{
+    margin-top: 10px;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+footer a{
+    padding: 5px 10px 5px 0;
+    text-decoration: none;
+    color: lightgray;
+}
 
 /* FOOTER END */
